@@ -1,0 +1,21 @@
+[09-Apr-2016 06:38:02 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'vjoseph'@'localhost' (using password: NO) in /home/ubuntu/workspace/staging/connect.php on line 8
+[09-Apr-2016 06:38:02 UTC] PHP Stack trace:
+[09-Apr-2016 06:38:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/search.php:0
+[09-Apr-2016 06:38:02 UTC] PHP   2. include() /home/ubuntu/workspace/staging/search.php:3
+[09-Apr-2016 06:38:02 UTC] PHP   3. mysqli->mysqli() /home/ubuntu/workspace/staging/connect.php:8
+[09-Apr-2016 06:39:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/staging/search.php on line 8
+[09-Apr-2016 06:39:09 UTC] PHP Stack trace:
+[09-Apr-2016 06:39:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/search.php:0
+[09-Apr-2016 06:39:09 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/staging/search.php:8
+[09-Apr-2016 06:48:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/staging/search.php on line 10
+[09-Apr-2016 06:48:44 UTC] PHP Stack trace:
+[09-Apr-2016 06:48:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/search.php:0
+[09-Apr-2016 06:48:44 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/staging/search.php:10
+[09-Apr-2016 06:49:22 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/staging/search.php on line 10
+[09-Apr-2016 06:49:22 UTC] PHP Stack trace:
+[09-Apr-2016 06:49:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/search.php:0
+[09-Apr-2016 06:49:22 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/staging/search.php:10
+[09-Apr-2016 06:56:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/staging/search.php on line 15
+[09-Apr-2016 06:56:32 UTC] PHP Stack trace:
+[09-Apr-2016 06:56:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/search.php:0
+[09-Apr-2016 06:56:32 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/staging/search.php:15
