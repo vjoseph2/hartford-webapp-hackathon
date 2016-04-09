@@ -19,3 +19,19 @@
 [09-Apr-2016 06:56:32 UTC] PHP Stack trace:
 [09-Apr-2016 06:56:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/search.php:0
 [09-Apr-2016 06:56:32 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/staging/search.php:15
+[09-Apr-2016 22:15:14 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/staging/search.php on line 15
+[09-Apr-2016 22:15:14 UTC] PHP Stack trace:
+[09-Apr-2016 22:15:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/search.php:0
+[09-Apr-2016 22:15:14 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/staging/search.php:15
+[09-Apr-2016 22:17:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/staging/search.php on line 15
+[09-Apr-2016 22:17:59 UTC] PHP Stack trace:
+[09-Apr-2016 22:17:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/search.php:0
+[09-Apr-2016 22:17:59 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/staging/search.php:15
+[09-Apr-2016 22:18:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/staging/search.php on line 15
+[09-Apr-2016 22:18:03 UTC] PHP Stack trace:
+[09-Apr-2016 22:18:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/search.php:0
+[09-Apr-2016 22:18:03 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/staging/search.php:15
+[09-Apr-2016 22:19:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/ubuntu/workspace/staging/search.php on line 15
+[09-Apr-2016 22:19:56 UTC] PHP Stack trace:
+[09-Apr-2016 22:19:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/search.php:0
+[09-Apr-2016 22:19:56 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/staging/search.php:15

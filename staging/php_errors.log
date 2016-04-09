@@ -1,0 +1,48 @@
+[09-Apr-2016 23:46:15 UTC] PHP Warning:  include(header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/staging/view-submissions/index.php on line 2
+[09-Apr-2016 23:46:15 UTC] PHP Stack trace:
+[09-Apr-2016 23:46:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/view-submissions/index.php:0
+[09-Apr-2016 23:46:15 UTC] PHP Warning:  include(): Failed opening 'header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/staging/view-submissions/index.php on line 2
+[09-Apr-2016 23:46:15 UTC] PHP Stack trace:
+[09-Apr-2016 23:46:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/view-submissions/index.php:0
+[09-Apr-2016 23:46:30 UTC] PHP Warning:  include(header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/staging/view-submissions/index.php on line 2
+[09-Apr-2016 23:46:30 UTC] PHP Stack trace:
+[09-Apr-2016 23:46:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/view-submissions/index.php:0
+[09-Apr-2016 23:46:30 UTC] PHP Warning:  include(): Failed opening 'header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/staging/view-submissions/index.php on line 2
+[09-Apr-2016 23:46:30 UTC] PHP Stack trace:
+[09-Apr-2016 23:46:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/view-submissions/index.php:0
+[09-Apr-2016 23:47:06 UTC] PHP Warning:  include(header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/staging/view-submissions/index.php on line 2
+[09-Apr-2016 23:47:06 UTC] PHP Stack trace:
+[09-Apr-2016 23:47:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/view-submissions/index.php:0
+[09-Apr-2016 23:47:06 UTC] PHP Warning:  include(): Failed opening 'header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/staging/view-submissions/index.php on line 2
+[09-Apr-2016 23:47:06 UTC] PHP Stack trace:
+[09-Apr-2016 23:47:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/view-submissions/index.php:0
+[09-Apr-2016 23:47:16 UTC] PHP Warning:  include(/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/staging/view-submissions/index.php on line 2
+[09-Apr-2016 23:47:16 UTC] PHP Stack trace:
+[09-Apr-2016 23:47:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/view-submissions/index.php:0
+[09-Apr-2016 23:47:16 UTC] PHP Warning:  include(): Failed opening '/header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/staging/view-submissions/index.php on line 2
+[09-Apr-2016 23:47:16 UTC] PHP Stack trace:
+[09-Apr-2016 23:47:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/view-submissions/index.php:0
+[09-Apr-2016 23:47:44 UTC] PHP Warning:  include(/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/staging/view-submissions/search.php on line 2
+[09-Apr-2016 23:47:44 UTC] PHP Stack trace:
+[09-Apr-2016 23:47:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/view-submissions/search.php:0
+[09-Apr-2016 23:47:44 UTC] PHP Warning:  include(): Failed opening '/header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/staging/view-submissions/search.php on line 2
+[09-Apr-2016 23:47:44 UTC] PHP Stack trace:
+[09-Apr-2016 23:47:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/view-submissions/search.php:0
+[09-Apr-2016 23:47:44 UTC] PHP Warning:  include(/connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/staging/view-submissions/search.php on line 3
+[09-Apr-2016 23:47:44 UTC] PHP Stack trace:
+[09-Apr-2016 23:47:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/view-submissions/search.php:0
+[09-Apr-2016 23:47:44 UTC] PHP Warning:  include(): Failed opening '/connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/staging/view-submissions/search.php on line 3
+[09-Apr-2016 23:47:44 UTC] PHP Stack trace:
+[09-Apr-2016 23:47:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/view-submissions/search.php:0
+[09-Apr-2016 23:47:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/staging/view-submissions/search.php on line 8
+[09-Apr-2016 23:47:44 UTC] PHP Stack trace:
+[09-Apr-2016 23:47:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/view-submissions/search.php:0
+[09-Apr-2016 23:47:44 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/staging/view-submissions/search.php:8
+[09-Apr-2016 23:47:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/staging/view-submissions/search.php on line 13
+[09-Apr-2016 23:47:44 UTC] PHP Stack trace:
+[09-Apr-2016 23:47:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/view-submissions/search.php:0
+[09-Apr-2016 23:47:44 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/staging/view-submissions/search.php:13
+[09-Apr-2016 23:47:44 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/staging/view-submissions/search.php on line 36
+[09-Apr-2016 23:47:44 UTC] PHP Stack trace:
+[09-Apr-2016 23:47:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/view-submissions/search.php:0
+[09-Apr-2016 23:47:44 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/staging/view-submissions/search.php:36
