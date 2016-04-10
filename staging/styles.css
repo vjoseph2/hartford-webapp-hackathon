@@ -39,11 +39,10 @@
     display: none !important;
 }
 .card{
-    margin-left:50px;
-    margin-right:50px;
     width:175px;
     height:275px;
     border: solid thin lightgrey;
+    display:inline-block;
     border-radius:3px;
 }
 .card-img{
@@ -54,4 +53,14 @@
 }
 .card-title{
     text-align:center;
+}
+.card-description{
+    height:55px;
+    overflow-y:scroll;
+}
+.search-form{
+    display:inline-block;
+    width:175px;
+    min-height:275px;
+    margin-left:50px;
 }

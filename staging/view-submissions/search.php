@@ -12,22 +12,25 @@ $result = mysqli_query($conn, $sql);
 <?php
 
 if (mysqli_num_rows($result) > 0) {
-    echo "<br><br><br> <h1>Showing results for $searchinput</h1>";
+    echo "<br><br><br> <h1>Showing results for <mark> $searchinput: </mark></h1>";
     // output data of each row
     while($row = mysqli_fetch_assoc($result)) {
             // if (strpos($a, $searchinput) !== false) {
             // $newsearch=$searchinput;
             // }
             ?>
-    <form class="form" action="viewIdea.php" method="GET">
+    <form class="search-form" action="viewIdea.php" method="GET">
             <?php
             //  echo "<input type='text' hidden readonly value='".$row['i_id'].">";
             echo "<input type='text' class='hide' name='searchresult' value='".$row['i_id']."'>";
     //   echo "<tr><td><a onclick='form.submit();' href='#'>".$row['title']."</a></td></tr>
-            echo "<button type='button' onclick='submit()' class='btn btn-default'>".$row['title']."</button>";
-            echo "<div class='card'><img class='card-img' src=".$row['img']."><div class='card-title'><h4>".$row['title']."</h4></div>
+            // echo "<button type='button' onclick='submit()' class='btn btn-default'>".$row['title']."</button>";
+            echo "<div class='card'>
+            <img class='card-img' src=".$row['img'].">
+            <div class='card-title'><h4>".$row['title']."</h4></div>
             <div class='card-description'><h5><small>".$row['description']."</small></h5></div>
-            <button type='button' onclick='submit()' class='btn btn-primary'>".$row['title']."</button>";
+            ";
+            echo  "<center><button type='button' onclick='submit()' class='btn btn-primary btn-card'>".$row['title']."</button></center></div>";
                
        ?>
 </form>
