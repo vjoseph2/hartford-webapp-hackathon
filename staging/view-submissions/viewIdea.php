@@ -1,3 +1,33 @@
+
+<head>
+<style>
+.navbar{
+    
+    position: absolute;
+    z-index:999;
+}
+.headerimg{
+    margin-top:-100px;
+}
+.header-img{
+    width:100%;  
+    position: absolute;
+    z-index:2;
+}
+.idea-main{
+    position: absolute;
+    z-index:2;
+    margin-top:250px;
+    height:100%;
+    background-color:white;
+}
+.ratings{
+      float: none;
+    font-size:40px;
+    color:#ffc34d;
+}
+</style>
+</head>
 <?php
 include('../header.html');
 include('../connect.php');
@@ -31,6 +61,27 @@ while($row = mysqli_fetch_assoc($result)) {
         </html>
         <?php echo $title;?>
         </h1>
+        <center><figure class="ratings center-block"><?php
+        function stars($rating){
+            if($rating==0){
+                echo "&#9734;&#9734;&#9734;&#9734;&#9734;";
+            }elseif($rating==1){
+                echo "&#8902;&#9734;&#9734;&#9734;&#9734;";
+            }elseif($rating==2){
+               echo "&#8902;&#8902;&#9734;&#9734;&#9734;"; 
+               
+            }elseif($rating==3){
+               echo "&#8902;&#8902;&#8902;&#9734;&#9734;"; 
+            }elseif($rating==4){
+                echo "&#8902;&#8902;&#8902;&#8902;;&#9734;";
+            }elseif($rating==5){
+                echo "&#8902;&#8902;&#8902;&#8902;&#8902;";
+            }else {
+                echo "There was an error with the rating system";
+                }
+        }
+        stars($rating);
+        ?></figure></center>
         <p> <?php echo $desc;?></p>
         <html>
     </div>

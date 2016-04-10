@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+    
+    <head>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+        <link rel="stylesheet" href="../styles.css" type="text/css" />
+        <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    </head>
+    
+       <nav class="navbar navbar-default">
+        <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Ideas!</a>
+        </div>
+    </nav>
+    
+    <body>
+        <script>
+            $(document).ready(function(){
+               $(".img-holder").keyup(function(){
+                   //get
+                   var userImage = $('.img-holder').val();
+                console.log(userImage);
+                    //Set
+                  $(".user-image").attr("src",userImage);
+                //   $("user-image").attr("src",userImage);
+               });
+               
+               $(".submit-idea").click(function(){
+                   $(".submit-form").show();
+               });
+            });
+        </script>
+<div class="row">
+    <div class="col-sm-12">
+         <div class="container">
+            <div class="jumbotron">
+                <h1>What would you like to do?</h1> 
+               <center><div class="btn-group">
+                <button type="button" class="btn btn-primary submit-idea" data-toggle="modal" data-target="#submit-modal">Submit Idea<br><span class="glyphicon glyphicon-plus"></span></button>
+                <button type="button" class="btn btn-primary">View/Rate Ideas<br><span class="glyphicon glyphicon-eye-open"></span></button>
+                <button type="button" class="btn btn-primary">View Progress<br><span class="glyphicon glyphicon-hourglass"></span></button>
+                </div></center>
+            </div> 
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-sm-6">
+        <!-- <div class="idea-area">-->
+        <!--    <form class="form submit-form" action="submit_idea.php" method="GET">-->
+        <!--        <input text="text"class="form-control" name="title" placeholder="title of idea">-->
+        <!--        <select name="category" class="form-control select-category">-->
+        <!--            <option value="">Select a Category</option>-->
+        <!--            <option value="housing/residential">Housing/Residential</option>-->
+        <!--            <option value="dining">Dining</option>-->
+        <!--            <option value="laundry">Laundry</option>-->
+        <!--            <option value="courses"> Courses</option>-->
+        <!--            <option value="registration">Registration</option>-->
+        <!--            <option value="other">Other</option>-->
+        <!--        </select>-->
+        <!--        <textarea class="form-control" rows="3" name="description" placeholder="give us a description"></textarea>-->
+        <!--        <textarea class="form-control" rows="5" name="suggestion1" placeholder="enter your suggestion"></textarea>-->
+        <!--        <input text="text"class="form-control img-holder" name="img" placeholder="paste image link">-->
+        <!--    </form>-->
+            
+        <!--</div>-->
+        
+          <!-- Modal -->
+  <div class="modal fade" id="submit-modal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Tell Us Your Idea!</h4>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                 <form class="form submit-form" action="submit_idea.php" method="GET">
+                <div class="col-sm-6">
+                     <select name="category" class="form-control select-category">
+                    <option value="">Select a Category</option>
+                    <option value="housing/residential">Housing/Residential</option>
+                    <option value="dining">Dining</option>
+                    <option value="laundry">Laundry</option>
+                    <option value="courses"> Courses</option>
+                    <option value="registration">Registration</option>
+                    <option value="other">Other</option>
+                </select>
+                <h4> Rate the Current System</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                     <input text="text"class="form-control" name="title" placeholder="title of idea">
+                </div>
+            </div>
+               
+               <div class="row">
+                <div class="col-sm-6">
+                    <h5>Tell Us Your Suggestions:</h5>
+                    <textarea class="form-control" rows="5" name="description" placeholder="give us a description"></textarea>
+                </div>
+                <div class="col-sm-6">
+                    <h5>Tell Us How to Make them Happen:</h5>
+                    <textarea class="form-control" rows="5" name="suggestion1" placeholder="enter your suggestion"></textarea>
+                </div>
+                </div>
+                <input text="text"class="form-control img-holder" name="img" placeholder="paste image link">
+           
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-success" data-dismiss="modal">Submit</button>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Return and Clear</button>
+           </form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+    </div>
+    <div class="col-sm-6">
+        <!--<h3>Preview will display here</h3>-->
+        <!--<br><img src="#" class="user-image">-->
+    </div>
+</div>
+       
+    </body>
+
+    
+</html>

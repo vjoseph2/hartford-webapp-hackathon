@@ -1,5 +1,5 @@
 .navbar{
-    
+    background-color:#b31b1b;
     position: absolute;
     z-index:999;
 }
@@ -17,4 +17,18 @@
     margin-top:250px;
     height:100%;
     background-color:white;
+}
+.user-image{
+    width:410px;
+    height:auto;
+}
+.suggestionInput2, .suggestionInput3{
+    width: 70%;
+    /*display:none;*/
+}
+    .suggestionInput2, .suggestionInput{
+        display:none;
+    }
+.submit-form{
+    display:none;
 }
