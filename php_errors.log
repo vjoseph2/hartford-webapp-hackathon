@@ -35,3 +35,663 @@
 [09-Apr-2016 22:19:56 UTC] PHP Stack trace:
 [09-Apr-2016 22:19:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/search.php:0
 [09-Apr-2016 22:19:56 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/staging/search.php:15
+[10-Apr-2016 09:20:18 UTC] PHP Warning:  include(../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:20:18 UTC] PHP Stack trace:
+[10-Apr-2016 09:20:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:20:18 UTC] PHP Warning:  include(): Failed opening '../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:20:18 UTC] PHP Stack trace:
+[10-Apr-2016 09:20:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:20:18 UTC] PHP Warning:  include(../header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:20:18 UTC] PHP Stack trace:
+[10-Apr-2016 09:20:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:20:18 UTC] PHP Warning:  include(): Failed opening '../header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:20:18 UTC] PHP Stack trace:
+[10-Apr-2016 09:20:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:20:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 6
+[10-Apr-2016 09:20:18 UTC] PHP Stack trace:
+[10-Apr-2016 09:20:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:20:18 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/progress/progress-index.php:6
+[10-Apr-2016 09:20:18 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/progress/progress-index.php on line 12
+[10-Apr-2016 09:20:18 UTC] PHP Stack trace:
+[10-Apr-2016 09:20:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:20:18 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/progress/progress-index.php:12
+[10-Apr-2016 09:20:18 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 41
+[10-Apr-2016 09:20:18 UTC] PHP Stack trace:
+[10-Apr-2016 09:20:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:20:18 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/progress/progress-index.php:41
+[10-Apr-2016 09:21:25 UTC] PHP Warning:  include(../header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 2
+[10-Apr-2016 09:21:25 UTC] PHP Stack trace:
+[10-Apr-2016 09:21:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:21:25 UTC] PHP Warning:  include(): Failed opening '../header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 2
+[10-Apr-2016 09:21:25 UTC] PHP Stack trace:
+[10-Apr-2016 09:21:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:21:25 UTC] PHP Warning:  include(../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:21:25 UTC] PHP Stack trace:
+[10-Apr-2016 09:21:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:21:25 UTC] PHP Warning:  include(): Failed opening '../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:21:25 UTC] PHP Stack trace:
+[10-Apr-2016 09:21:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:21:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 47
+[10-Apr-2016 09:21:25 UTC] PHP Stack trace:
+[10-Apr-2016 09:21:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:21:25 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/view-submissions/index.php:47
+[10-Apr-2016 09:21:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/view-submissions/index.php on line 52
+[10-Apr-2016 09:21:25 UTC] PHP Stack trace:
+[10-Apr-2016 09:21:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:21:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/view-submissions/index.php:52
+[10-Apr-2016 09:21:25 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 81
+[10-Apr-2016 09:21:25 UTC] PHP Stack trace:
+[10-Apr-2016 09:21:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:21:25 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/view-submissions/index.php:81
+[10-Apr-2016 09:21:56 UTC] PHP Warning:  include(../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:21:56 UTC] PHP Stack trace:
+[10-Apr-2016 09:21:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:21:56 UTC] PHP Warning:  include(): Failed opening '../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:21:56 UTC] PHP Stack trace:
+[10-Apr-2016 09:21:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:21:56 UTC] PHP Warning:  include(../header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:21:56 UTC] PHP Stack trace:
+[10-Apr-2016 09:21:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:21:56 UTC] PHP Warning:  include(): Failed opening '../header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:21:56 UTC] PHP Stack trace:
+[10-Apr-2016 09:21:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:21:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 6
+[10-Apr-2016 09:21:56 UTC] PHP Stack trace:
+[10-Apr-2016 09:21:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:21:56 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/progress/progress-index.php:6
+[10-Apr-2016 09:21:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/progress/progress-index.php on line 12
+[10-Apr-2016 09:21:56 UTC] PHP Stack trace:
+[10-Apr-2016 09:21:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:21:56 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/progress/progress-index.php:12
+[10-Apr-2016 09:21:56 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 41
+[10-Apr-2016 09:21:56 UTC] PHP Stack trace:
+[10-Apr-2016 09:21:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:21:56 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/progress/progress-index.php:41
+[10-Apr-2016 09:22:10 UTC] PHP Warning:  include(../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:22:10 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:10 UTC] PHP Warning:  include(): Failed opening '../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:22:10 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:10 UTC] PHP Warning:  include(../header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:22:10 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:10 UTC] PHP Warning:  include(): Failed opening '../header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:22:10 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:10 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 6
+[10-Apr-2016 09:22:10 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:10 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/progress/progress-index.php:6
+[10-Apr-2016 09:22:10 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/progress/progress-index.php on line 12
+[10-Apr-2016 09:22:10 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:10 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/progress/progress-index.php:12
+[10-Apr-2016 09:22:10 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 41
+[10-Apr-2016 09:22:10 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:10 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/progress/progress-index.php:41
+[10-Apr-2016 09:22:18 UTC] PHP Warning:  include(../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:22:18 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:18 UTC] PHP Warning:  include(): Failed opening '../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:22:18 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:18 UTC] PHP Warning:  include(../header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:22:18 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:18 UTC] PHP Warning:  include(): Failed opening '../header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:22:18 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:18 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 6
+[10-Apr-2016 09:22:18 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:18 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/progress/progress-index.php:6
+[10-Apr-2016 09:22:18 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/progress/progress-index.php on line 12
+[10-Apr-2016 09:22:18 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:18 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/progress/progress-index.php:12
+[10-Apr-2016 09:22:18 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 41
+[10-Apr-2016 09:22:18 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:18 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/progress/progress-index.php:41
+[10-Apr-2016 09:22:23 UTC] PHP Warning:  include(../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:22:23 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:23 UTC] PHP Warning:  include(): Failed opening '../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:22:23 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:23 UTC] PHP Warning:  include(../header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:22:23 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:23 UTC] PHP Warning:  include(): Failed opening '../header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:22:23 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 6
+[10-Apr-2016 09:22:23 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:23 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/progress/progress-index.php:6
+[10-Apr-2016 09:22:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/progress/progress-index.php on line 12
+[10-Apr-2016 09:22:23 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:23 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/progress/progress-index.php:12
+[10-Apr-2016 09:22:23 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 41
+[10-Apr-2016 09:22:23 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:23 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/progress/progress-index.php:41
+[10-Apr-2016 09:22:32 UTC] PHP Warning:  include(../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:22:32 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:32 UTC] PHP Warning:  include(): Failed opening '../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:22:32 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:32 UTC] PHP Warning:  include(../header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:22:32 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:32 UTC] PHP Warning:  include(): Failed opening '../header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:22:32 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 6
+[10-Apr-2016 09:22:32 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:32 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/progress/progress-index.php:6
+[10-Apr-2016 09:22:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/progress/progress-index.php on line 12
+[10-Apr-2016 09:22:32 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:32 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/progress/progress-index.php:12
+[10-Apr-2016 09:22:32 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 41
+[10-Apr-2016 09:22:32 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:22:32 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/progress/progress-index.php:41
+[10-Apr-2016 09:22:48 UTC] PHP Warning:  include(/../header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 2
+[10-Apr-2016 09:22:48 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:22:48 UTC] PHP Warning:  include(): Failed opening '/../header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 2
+[10-Apr-2016 09:22:48 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:22:48 UTC] PHP Warning:  include(/../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:22:48 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:22:48 UTC] PHP Warning:  include(): Failed opening '/../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:22:48 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:22:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 47
+[10-Apr-2016 09:22:48 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:22:48 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/view-submissions/index.php:47
+[10-Apr-2016 09:22:48 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/view-submissions/index.php on line 52
+[10-Apr-2016 09:22:48 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:22:48 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/view-submissions/index.php:52
+[10-Apr-2016 09:22:48 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 81
+[10-Apr-2016 09:22:48 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:22:48 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/view-submissions/index.php:81
+[10-Apr-2016 09:22:56 UTC] PHP Warning:  include(../../header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 2
+[10-Apr-2016 09:22:56 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:22:56 UTC] PHP Warning:  include(): Failed opening '../../header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 2
+[10-Apr-2016 09:22:56 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:22:56 UTC] PHP Warning:  include(/../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:22:56 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:22:56 UTC] PHP Warning:  include(): Failed opening '/../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:22:56 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:22:56 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 47
+[10-Apr-2016 09:22:56 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:22:56 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/view-submissions/index.php:47
+[10-Apr-2016 09:22:56 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/view-submissions/index.php on line 52
+[10-Apr-2016 09:22:56 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:22:56 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/view-submissions/index.php:52
+[10-Apr-2016 09:22:56 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 81
+[10-Apr-2016 09:22:56 UTC] PHP Stack trace:
+[10-Apr-2016 09:22:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:22:56 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/view-submissions/index.php:81
+[10-Apr-2016 09:23:06 UTC] PHP Warning:  include(/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 2
+[10-Apr-2016 09:23:06 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:06 UTC] PHP Warning:  include(): Failed opening '/header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 2
+[10-Apr-2016 09:23:06 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:06 UTC] PHP Warning:  include(/../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:23:06 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:06 UTC] PHP Warning:  include(): Failed opening '/../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:23:06 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:06 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 47
+[10-Apr-2016 09:23:06 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:06 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/view-submissions/index.php:47
+[10-Apr-2016 09:23:06 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/view-submissions/index.php on line 52
+[10-Apr-2016 09:23:06 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:06 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/view-submissions/index.php:52
+[10-Apr-2016 09:23:06 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 81
+[10-Apr-2016 09:23:06 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:06 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/view-submissions/index.php:81
+[10-Apr-2016 09:23:12 UTC] PHP Warning:  include(../header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 2
+[10-Apr-2016 09:23:12 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:12 UTC] PHP Warning:  include(): Failed opening '../header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 2
+[10-Apr-2016 09:23:12 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:12 UTC] PHP Warning:  include(/../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:23:12 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:12 UTC] PHP Warning:  include(): Failed opening '/../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:23:12 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:12 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 47
+[10-Apr-2016 09:23:12 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:12 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/view-submissions/index.php:47
+[10-Apr-2016 09:23:12 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/view-submissions/index.php on line 52
+[10-Apr-2016 09:23:12 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:12 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/view-submissions/index.php:52
+[10-Apr-2016 09:23:12 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 81
+[10-Apr-2016 09:23:12 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:12 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/view-submissions/index.php:81
+[10-Apr-2016 09:23:25 UTC] PHP Warning:  include(/../header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 2
+[10-Apr-2016 09:23:25 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:25 UTC] PHP Warning:  include(): Failed opening '/../header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 2
+[10-Apr-2016 09:23:25 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:25 UTC] PHP Warning:  include(/../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:23:25 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:25 UTC] PHP Warning:  include(): Failed opening '/../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:23:25 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:25 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 47
+[10-Apr-2016 09:23:25 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:25 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/view-submissions/index.php:47
+[10-Apr-2016 09:23:25 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/view-submissions/index.php on line 52
+[10-Apr-2016 09:23:25 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:25 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/view-submissions/index.php:52
+[10-Apr-2016 09:23:25 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 81
+[10-Apr-2016 09:23:25 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:25 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/view-submissions/index.php:81
+[10-Apr-2016 09:23:28 UTC] PHP Warning:  include(../../header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 2
+[10-Apr-2016 09:23:28 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:28 UTC] PHP Warning:  include(): Failed opening '../../header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 2
+[10-Apr-2016 09:23:28 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:28 UTC] PHP Warning:  include(/../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:23:28 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:28 UTC] PHP Warning:  include(): Failed opening '/../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:23:28 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:28 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 47
+[10-Apr-2016 09:23:28 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:28 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/view-submissions/index.php:47
+[10-Apr-2016 09:23:28 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/view-submissions/index.php on line 52
+[10-Apr-2016 09:23:28 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:28 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/view-submissions/index.php:52
+[10-Apr-2016 09:23:28 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 81
+[10-Apr-2016 09:23:28 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:28 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/view-submissions/index.php:81
+[10-Apr-2016 09:23:32 UTC] PHP Warning:  include(/../../header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 2
+[10-Apr-2016 09:23:32 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:32 UTC] PHP Warning:  include(): Failed opening '/../../header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 2
+[10-Apr-2016 09:23:32 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:32 UTC] PHP Warning:  include(/../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:23:32 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:32 UTC] PHP Warning:  include(): Failed opening '/../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:23:32 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 47
+[10-Apr-2016 09:23:32 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:32 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/view-submissions/index.php:47
+[10-Apr-2016 09:23:32 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/view-submissions/index.php on line 52
+[10-Apr-2016 09:23:32 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:32 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/view-submissions/index.php:52
+[10-Apr-2016 09:23:32 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 81
+[10-Apr-2016 09:23:32 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:32 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/view-submissions/index.php:81
+[10-Apr-2016 09:23:35 UTC] PHP Warning:  include(../../../header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 2
+[10-Apr-2016 09:23:35 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:35 UTC] PHP Warning:  include(): Failed opening '../../../header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 2
+[10-Apr-2016 09:23:35 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:35 UTC] PHP Warning:  include(/../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:23:35 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:35 UTC] PHP Warning:  include(): Failed opening '/../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:23:35 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:35 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 47
+[10-Apr-2016 09:23:35 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:35 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/view-submissions/index.php:47
+[10-Apr-2016 09:23:35 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/view-submissions/index.php on line 52
+[10-Apr-2016 09:23:35 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:35 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/view-submissions/index.php:52
+[10-Apr-2016 09:23:35 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 81
+[10-Apr-2016 09:23:35 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:35 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/view-submissions/index.php:81
+[10-Apr-2016 09:23:40 UTC] PHP Warning:  include(/../../../header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 2
+[10-Apr-2016 09:23:40 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:40 UTC] PHP Warning:  include(): Failed opening '/../../../header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 2
+[10-Apr-2016 09:23:40 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:40 UTC] PHP Warning:  include(/../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:23:40 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:40 UTC] PHP Warning:  include(): Failed opening '/../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:23:40 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 47
+[10-Apr-2016 09:23:40 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:40 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/view-submissions/index.php:47
+[10-Apr-2016 09:23:40 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/view-submissions/index.php on line 52
+[10-Apr-2016 09:23:40 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:40 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/view-submissions/index.php:52
+[10-Apr-2016 09:23:40 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 81
+[10-Apr-2016 09:23:40 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:40 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/view-submissions/index.php:81
+[10-Apr-2016 09:23:48 UTC] PHP Warning:  include(/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 2
+[10-Apr-2016 09:23:48 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:48 UTC] PHP Warning:  include(): Failed opening '/header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 2
+[10-Apr-2016 09:23:48 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:48 UTC] PHP Warning:  include(/../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:23:48 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:48 UTC] PHP Warning:  include(): Failed opening '/../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:23:48 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 47
+[10-Apr-2016 09:23:48 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:48 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/view-submissions/index.php:47
+[10-Apr-2016 09:23:48 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/view-submissions/index.php on line 52
+[10-Apr-2016 09:23:48 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:48 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/view-submissions/index.php:52
+[10-Apr-2016 09:23:48 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 81
+[10-Apr-2016 09:23:48 UTC] PHP Stack trace:
+[10-Apr-2016 09:23:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:23:48 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/view-submissions/index.php:81
+[10-Apr-2016 09:24:07 UTC] PHP Warning:  include(/header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 2
+[10-Apr-2016 09:24:07 UTC] PHP Stack trace:
+[10-Apr-2016 09:24:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:24:07 UTC] PHP Warning:  include(): Failed opening '/header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 2
+[10-Apr-2016 09:24:07 UTC] PHP Stack trace:
+[10-Apr-2016 09:24:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:24:07 UTC] PHP Warning:  include(/../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:24:07 UTC] PHP Stack trace:
+[10-Apr-2016 09:24:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:24:07 UTC] PHP Warning:  include(): Failed opening '/../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:24:07 UTC] PHP Stack trace:
+[10-Apr-2016 09:24:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:24:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 47
+[10-Apr-2016 09:24:07 UTC] PHP Stack trace:
+[10-Apr-2016 09:24:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:24:07 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/view-submissions/index.php:47
+[10-Apr-2016 09:24:07 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/view-submissions/index.php on line 52
+[10-Apr-2016 09:24:07 UTC] PHP Stack trace:
+[10-Apr-2016 09:24:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:24:07 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/view-submissions/index.php:52
+[10-Apr-2016 09:24:07 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 81
+[10-Apr-2016 09:24:07 UTC] PHP Stack trace:
+[10-Apr-2016 09:24:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:24:07 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/view-submissions/index.php:81
+[10-Apr-2016 09:24:15 UTC] PHP Warning:  include(/../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:24:15 UTC] PHP Stack trace:
+[10-Apr-2016 09:24:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:24:15 UTC] PHP Warning:  include(): Failed opening '/../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:24:15 UTC] PHP Stack trace:
+[10-Apr-2016 09:24:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:24:15 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 47
+[10-Apr-2016 09:24:15 UTC] PHP Stack trace:
+[10-Apr-2016 09:24:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:24:15 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/view-submissions/index.php:47
+[10-Apr-2016 09:24:15 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/view-submissions/index.php on line 52
+[10-Apr-2016 09:24:15 UTC] PHP Stack trace:
+[10-Apr-2016 09:24:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:24:15 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/view-submissions/index.php:52
+[10-Apr-2016 09:24:15 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 81
+[10-Apr-2016 09:24:15 UTC] PHP Stack trace:
+[10-Apr-2016 09:24:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:24:15 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/view-submissions/index.php:81
+[10-Apr-2016 09:24:40 UTC] PHP Warning:  include(/../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:24:40 UTC] PHP Stack trace:
+[10-Apr-2016 09:24:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:24:40 UTC] PHP Warning:  include(): Failed opening '/../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/view-submissions/index.php on line 3
+[10-Apr-2016 09:24:40 UTC] PHP Stack trace:
+[10-Apr-2016 09:24:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:24:40 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 47
+[10-Apr-2016 09:24:40 UTC] PHP Stack trace:
+[10-Apr-2016 09:24:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:24:40 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/view-submissions/index.php:47
+[10-Apr-2016 09:24:40 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/view-submissions/index.php on line 52
+[10-Apr-2016 09:24:40 UTC] PHP Stack trace:
+[10-Apr-2016 09:24:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:24:40 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/view-submissions/index.php:52
+[10-Apr-2016 09:24:40 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/view-submissions/index.php on line 81
+[10-Apr-2016 09:24:40 UTC] PHP Stack trace:
+[10-Apr-2016 09:24:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/view-submissions/index.php:0
+[10-Apr-2016 09:24:40 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/view-submissions/index.php:81
+[10-Apr-2016 09:29:23 UTC] PHP Warning:  include(/../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:29:23 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:23 UTC] PHP Warning:  include(): Failed opening '/../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:29:23 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:23 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 6
+[10-Apr-2016 09:29:23 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:23 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/progress/progress-index.php:6
+[10-Apr-2016 09:29:23 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/progress/progress-index.php on line 12
+[10-Apr-2016 09:29:23 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:23 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/progress/progress-index.php:12
+[10-Apr-2016 09:29:23 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 41
+[10-Apr-2016 09:29:23 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:23 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/progress/progress-index.php:41
+[10-Apr-2016 09:29:30 UTC] PHP Warning:  include(/../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:29:30 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:30 UTC] PHP Warning:  include(): Failed opening '/../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:29:30 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:30 UTC] PHP Warning:  include(/../header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:29:30 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:30 UTC] PHP Warning:  include(): Failed opening '/../header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:29:30 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:30 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 6
+[10-Apr-2016 09:29:30 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:30 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/progress/progress-index.php:6
+[10-Apr-2016 09:29:30 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/progress/progress-index.php on line 12
+[10-Apr-2016 09:29:30 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:30 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/progress/progress-index.php:12
+[10-Apr-2016 09:29:30 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 41
+[10-Apr-2016 09:29:30 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:30 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/progress/progress-index.php:41
+[10-Apr-2016 09:29:43 UTC] PHP Warning:  include(../../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:29:43 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:43 UTC] PHP Warning:  include(): Failed opening '../../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:29:43 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:43 UTC] PHP Warning:  include(/../header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:29:43 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:43 UTC] PHP Warning:  include(): Failed opening '/../header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:29:43 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:43 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 6
+[10-Apr-2016 09:29:43 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:43 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/progress/progress-index.php:6
+[10-Apr-2016 09:29:43 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/progress/progress-index.php on line 12
+[10-Apr-2016 09:29:43 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:43 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/progress/progress-index.php:12
+[10-Apr-2016 09:29:43 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 41
+[10-Apr-2016 09:29:43 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:43 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/progress/progress-index.php:41
+[10-Apr-2016 09:29:48 UTC] PHP Warning:  include(/../../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:29:48 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:48 UTC] PHP Warning:  include(): Failed opening '/../../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:29:48 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:48 UTC] PHP Warning:  include(/../header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:29:48 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:48 UTC] PHP Warning:  include(): Failed opening '/../header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:29:48 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:48 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 6
+[10-Apr-2016 09:29:48 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:48 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/progress/progress-index.php:6
+[10-Apr-2016 09:29:48 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/progress/progress-index.php on line 12
+[10-Apr-2016 09:29:48 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:48 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/progress/progress-index.php:12
+[10-Apr-2016 09:29:48 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 41
+[10-Apr-2016 09:29:48 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:48 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/progress/progress-index.php:41
+[10-Apr-2016 09:29:53 UTC] PHP Warning:  include(../../../connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:29:53 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:53 UTC] PHP Warning:  include(): Failed opening '../../../connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:29:53 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:53 UTC] PHP Warning:  include(/../header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:29:53 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:53 UTC] PHP Warning:  include(): Failed opening '/../header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:29:53 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:53 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 6
+[10-Apr-2016 09:29:53 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:53 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/progress/progress-index.php:6
+[10-Apr-2016 09:29:53 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/progress/progress-index.php on line 12
+[10-Apr-2016 09:29:53 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:53 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/progress/progress-index.php:12
+[10-Apr-2016 09:29:53 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 41
+[10-Apr-2016 09:29:53 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:53 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/progress/progress-index.php:41
+[10-Apr-2016 09:29:59 UTC] PHP Warning:  include(/connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:29:59 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:59 UTC] PHP Warning:  include(): Failed opening '/connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:29:59 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:59 UTC] PHP Warning:  include(/../header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:29:59 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:59 UTC] PHP Warning:  include(): Failed opening '/../header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:29:59 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 6
+[10-Apr-2016 09:29:59 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:59 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/progress/progress-index.php:6
+[10-Apr-2016 09:29:59 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/progress/progress-index.php on line 12
+[10-Apr-2016 09:29:59 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:59 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/progress/progress-index.php:12
+[10-Apr-2016 09:29:59 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 41
+[10-Apr-2016 09:29:59 UTC] PHP Stack trace:
+[10-Apr-2016 09:29:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:29:59 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/progress/progress-index.php:41
+[10-Apr-2016 09:30:03 UTC] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:30:03 UTC] PHP Stack trace:
+[10-Apr-2016 09:30:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:30:03 UTC] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:30:03 UTC] PHP Stack trace:
+[10-Apr-2016 09:30:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:30:03 UTC] PHP Warning:  include(/../header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:30:03 UTC] PHP Stack trace:
+[10-Apr-2016 09:30:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:30:03 UTC] PHP Warning:  include(): Failed opening '/../header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:30:03 UTC] PHP Stack trace:
+[10-Apr-2016 09:30:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:30:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 6
+[10-Apr-2016 09:30:03 UTC] PHP Stack trace:
+[10-Apr-2016 09:30:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:30:03 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/progress/progress-index.php:6
+[10-Apr-2016 09:30:03 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/progress/progress-index.php on line 12
+[10-Apr-2016 09:30:03 UTC] PHP Stack trace:
+[10-Apr-2016 09:30:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:30:03 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/progress/progress-index.php:12
+[10-Apr-2016 09:30:03 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 41
+[10-Apr-2016 09:30:03 UTC] PHP Stack trace:
+[10-Apr-2016 09:30:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:30:03 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/progress/progress-index.php:41
+[10-Apr-2016 09:30:07 UTC] PHP Warning:  include(/connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:30:07 UTC] PHP Stack trace:
+[10-Apr-2016 09:30:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:30:07 UTC] PHP Warning:  include(): Failed opening '/connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 2
+[10-Apr-2016 09:30:07 UTC] PHP Stack trace:
+[10-Apr-2016 09:30:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:30:07 UTC] PHP Warning:  include(/../header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:30:07 UTC] PHP Stack trace:
+[10-Apr-2016 09:30:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:30:07 UTC] PHP Warning:  include(): Failed opening '/../header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:30:07 UTC] PHP Stack trace:
+[10-Apr-2016 09:30:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:30:07 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 6
+[10-Apr-2016 09:30:07 UTC] PHP Stack trace:
+[10-Apr-2016 09:30:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:30:07 UTC] PHP   2. mysqli_query() /home/ubuntu/workspace/progress/progress-index.php:6
+[10-Apr-2016 09:30:07 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/progress/progress-index.php on line 12
+[10-Apr-2016 09:30:07 UTC] PHP Stack trace:
+[10-Apr-2016 09:30:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:30:07 UTC] PHP   2. mysqli_num_rows() /home/ubuntu/workspace/progress/progress-index.php:12
+[10-Apr-2016 09:30:07 UTC] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home/ubuntu/workspace/progress/progress-index.php on line 41
+[10-Apr-2016 09:30:07 UTC] PHP Stack trace:
+[10-Apr-2016 09:30:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:30:07 UTC] PHP   2. mysqli_close() /home/ubuntu/workspace/progress/progress-index.php:41
+[10-Apr-2016 09:30:10 UTC] PHP Warning:  include(/../header.html): failed to open stream: No such file or directory in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:30:10 UTC] PHP Stack trace:
+[10-Apr-2016 09:30:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0
+[10-Apr-2016 09:30:10 UTC] PHP Warning:  include(): Failed opening '/../header.html' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/progress/progress-index.php on line 3
+[10-Apr-2016 09:30:10 UTC] PHP Stack trace:
+[10-Apr-2016 09:30:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/progress/progress-index.php:0

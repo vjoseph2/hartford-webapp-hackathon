@@ -1,0 +1,89 @@
+.navbar{
+    background-color:#b31b1b;
+    position: absolute;
+    z-index:999;
+    border-radius:0px !important;
+}
+.headerimg{
+    margin-top:-100px;
+}
+.header-img{
+    width:100%;  
+    position: absolute;
+    z-index:2;
+}
+.idea-main{
+    position: absolute;
+    z-index:2;
+    margin-top:250px;
+    height:100%;
+    background-color:white;
+}
+.progress-main{
+    position: absolute;
+    z-index:2;
+    margin-top:250px;
+}
+body{
+  background: url('http://www.marist.edu/registrar/commencement/graduate/images/Grad267H-5_19_12.jpg');
+   background-repeat: no-repeat;
+     background-size: 100% auto;
+}
+.user-image{
+    width:410px;
+    height:auto;
+}
+.suggestionInput2, .suggestionInput3{
+    width: 70%;
+    /*display:none;*/
+}
+    .suggestionInput2, .suggestionInput{
+        display:none;
+    }
+.submit-form{
+    display:none;
+}
+.seachbox{
+    padding-top:100px;
+}
+.hide{
+    display: none !important;
+}
+.card{
+    width:175px;
+    height:275px;
+    border: solid thin lightgrey;
+    display:inline-block;
+    border-radius:3px;
+    background-color:white;
+}
+.card-img{
+    border-top-right-radius:3px;
+    border-top-left-radius:3px;
+    width:175px;
+    height:auto;
+}
+.card-title{
+    text-align:center;
+}
+.card-description{
+    height:55px;
+    overflow-y:scroll;
+}
+.search-form{
+    display:inline-block;
+    width:175px;
+    min-height:275px;
+    margin-left:50px;
+}
+.progress-icon{
+    border-radius: 200px;
+    width:100px;
+    height:auto;
+}
+.home-jumbo{
+    opacity:.8;
+}
+.container{
+    
+}
