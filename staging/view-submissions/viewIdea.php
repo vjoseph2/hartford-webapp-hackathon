@@ -11,14 +11,16 @@
 }
 .header-img{
     width:100%;  
-    position: absolute;
+    position: relative;
     z-index:2;
 }
 .idea-main{
-    position: absolute;
+    position: relative;
+    padding-left:50px;
     z-index:2;
-    margin-top:250px;
+    margin-top:-250px;
     height:100%;
+    width:100%;
     background-color:white;
 }
 .ratings{

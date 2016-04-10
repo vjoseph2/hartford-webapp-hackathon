@@ -54,3 +54,21 @@
 [10-Apr-2016 00:41:06 UTC] PHP Stack trace:
 [10-Apr-2016 00:41:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/admins/loginAdmin.php:0
 [10-Apr-2016 00:41:06 UTC] PHP   2. file_get_contents() /home/ubuntu/workspace/staging/admins/loginAdmin.php:5
+[10-Apr-2016 05:46:58 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/staging/submit-submissions/submit_idea.php on line 12
+[10-Apr-2016 05:46:58 UTC] PHP Stack trace:
+[10-Apr-2016 05:46:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/submit-submissions/submit_idea.php:0
+[10-Apr-2016 05:47:38 UTC] PHP Fatal error:  Call to a member function close() on a non-object in /home/ubuntu/workspace/staging/submit-submissions/submit_idea.php on line 26
+[10-Apr-2016 05:47:38 UTC] PHP Stack trace:
+[10-Apr-2016 05:47:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/submit-submissions/submit_idea.php:0
+[10-Apr-2016 05:48:26 UTC] PHP Warning:  include(connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/staging/submit-submissions/submit_idea.php on line 2
+[10-Apr-2016 05:48:26 UTC] PHP Stack trace:
+[10-Apr-2016 05:48:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/submit-submissions/submit_idea.php:0
+[10-Apr-2016 05:48:26 UTC] PHP Warning:  include(): Failed opening 'connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/staging/submit-submissions/submit_idea.php on line 2
+[10-Apr-2016 05:48:26 UTC] PHP Stack trace:
+[10-Apr-2016 05:48:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/submit-submissions/submit_idea.php:0
+[10-Apr-2016 05:48:35 UTC] PHP Warning:  include(/connect.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/staging/submit-submissions/submit_idea.php on line 2
+[10-Apr-2016 05:48:35 UTC] PHP Stack trace:
+[10-Apr-2016 05:48:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/submit-submissions/submit_idea.php:0
+[10-Apr-2016 05:48:35 UTC] PHP Warning:  include(): Failed opening '/connect.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/staging/submit-submissions/submit_idea.php on line 2
+[10-Apr-2016 05:48:35 UTC] PHP Stack trace:
+[10-Apr-2016 05:48:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/staging/submit-submissions/submit_idea.php:0

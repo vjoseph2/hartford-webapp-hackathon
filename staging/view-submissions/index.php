@@ -1,5 +1,6 @@
 <?php 
 include('../header.html');
+include('../connect.php');
 ?>
 <html>
     <script>
@@ -31,6 +32,7 @@ include('../header.html');
     
     <!--  </div>-->
     <!--</div>-->
+    <br><br><br><br>
     <div class="container">
   <div class="jumbotron">
     <h2>Search for ideas relating to your idea: </h2> 

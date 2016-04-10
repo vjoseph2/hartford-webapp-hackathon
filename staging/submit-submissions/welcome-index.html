@@ -7,11 +7,13 @@
         <link rel="stylesheet" href="../styles.css" type="text/css" />
         <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
         <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+        <script src="/rateit.js/scripts/jquery.rateit.min.js"></script>
+        <link rel="stylesheet" href="/rateit.js/scripts/rateit.css" type="text/css" />
     </head>
     
        <nav class="navbar navbar-default">
         <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
+         Brand and toggle get grouped for better mobile display 
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -22,6 +24,7 @@
             <a class="navbar-brand" href="#">Ideas!</a>
         </div>
     </nav>
+    
     
     <body>
         <script>
@@ -34,6 +37,13 @@
                   $(".user-image").attr("src",userImage);
                 //   $("user-image").attr("src",userImage);
                });
+               
+               $('.rateit').click(function() {
+                  var valuerate= $(this).rateit('value');
+                  $(".rating").val(valuerate)
+                  
+               })
+               
                
                $(".submit-idea").click(function(){
                    $(".submit-form").show();
@@ -90,7 +100,7 @@
             <div class="row">
                  <form class="form submit-form" action="submit_idea.php" method="GET">
                 <div class="col-sm-6">
-                     <select name="category" class="form-control select-category">
+                     <select required name="category" class="form-control select-category">
                     <option value="">Select a Category</option>
                     <option value="housing/residential">Housing/Residential</option>
                     <option value="dining">Dining</option>
@@ -100,29 +110,32 @@
                     <option value="other">Other</option>
                 </select>
                 <h4> Rate the Current System</h4>
+                <div class="rateit">
+                </div>
+                <input type="hidden" class="rating" name="rating" value="">
                 </div>
             </div>
             <div class="row">
                 <div class="col-sm-6">
-                     <input text="text"class="form-control" name="title" placeholder="title of idea">
+                     <input  required text="text"class="form-control" name="title" placeholder="title of idea">
                 </div>
             </div>
                
                <div class="row">
                 <div class="col-sm-6">
                     <h5>Tell Us Your Suggestions:</h5>
-                    <textarea class="form-control" rows="5" name="description" placeholder="give us a description"></textarea>
+                    <textarea  required class="form-control" rows="5" name="description" placeholder="give us a description"></textarea>
                 </div>
                 <div class="col-sm-6">
                     <h5>Tell Us How to Make them Happen:</h5>
-                    <textarea class="form-control" rows="5" name="suggestion1" placeholder="enter your suggestion"></textarea>
+                    <textarea  required class="form-control" rows="5" name="suggestion1" placeholder="enter your suggestion"></textarea>
                 </div>
                 </div>
                 <input text="text"class="form-control img-holder" name="img" placeholder="paste image link">
            
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-success" data-dismiss="modal">Submit</button>
+          <input  type="submit" class="btn btn-success">
           <button type="button" class="btn btn-danger" data-dismiss="modal">Return and Clear</button>
            </form>
         </div>

@@ -21,16 +21,24 @@
 <!--    </nav>-->
 <!--</html>-->
 
+
+<!-- http://www.bootply.com/60886 -->
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
         <meta charset="utf-8">
-        <title>Bootply snippet - Navbar with Login dropdown form</title>
+        <title>TellTail</title>
         <meta name="generator" content="Bootply" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="description" content="" />
+        <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
         <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../styles.css" type="text/css" />
+
+        <link rel="stylesheet" type="text/css" href="/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
         
         <!--[if lt IE 9]>
           <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -43,7 +51,7 @@
     
     <!-- HTML code from Bootply.com editor -->
     
-    <body  >
+    <body>
         
         <div class="navbar navbar-fixed-top">
   <div class="navbar-inner">
@@ -60,30 +68,9 @@
           <li><a href="#">View/Rate Ideas</a></li>
           <li><a href="#">Submit Idea</a></li>
           <li><a href="#">View Progress</a></li>
-           <li class="dropdown">
-             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-             <ul class="dropdown-menu">
-               <li><a href="#">Action</a></li>
-               <li><a href="#">Another action</a></li>
-               <li><a href="#">Something else here</a></li>
-               <li class="divider"></li>
-               <li class="nav-header">Nav header</li>
-               <li><a href="#">Separated link</a></li>
-               <li><a href="#">One more separated link</a></li>
-             </ul>
-          </li>
         </ul>
         <ul class="nav pull-right">
-          <li class="dropdown" id="menuLogin">
-            <a class="dropdown-toggle" href="#" data-toggle="dropdown" id="navLogin">Login</a>
-            <div class="dropdown-menu" style="padding:17px;">
-              <form class="form" id="formLogin"> 
-                <input name="username" id="username" type="text" placeholder="Username"> 
-                <input name="password" id="password" type="password" placeholder="Password"><br>
-                <button type="button" id="btnLogin" class="btn">Login</button>
-              </form>
-            </div>
-          </li>
+          <li><a href="#"><i class="icon-user icon-black"></i> User Name</a></li>
         </ul>
       </div><!-- /.nav-collapse -->
     </div><!-- /.container -->
